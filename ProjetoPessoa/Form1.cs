@@ -39,7 +39,7 @@ namespace ProjetoPessoa
         {
             try
             {
-                obj.Nome = lblNome.Text;
+                obj.Nome = lblNome.Text; 
                 obj.DataNascimento = DateTime.Parse(txtDataNascimento.Text);
                 obj.Altura = double.Parse(txtAltura.Text);
                 MessageBox.Show("Dados armazenados.");

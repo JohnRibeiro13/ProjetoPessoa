@@ -15,7 +15,7 @@ namespace ProjetoPessoa
         public string Nome
         {
             set
-            {
+            { 
                 if (value != string.Empty)
                 {
                     this.nome = value;
